@@ -1,0 +1,10 @@
+CREATE TABLE math_list (
+    pid int NOT NULL,
+    content varchar(5000) NOT NULL,
+    order_num int NOT NULL,
+    category_id int NOT NULL,
+    PRIMARY KEY (pid)
+);
+
+INSERT INTO math_list (pid, content, order_num, category_id) VALUES
+(493, 'initial beginning', 1, 1);
